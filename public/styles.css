@@ -1,0 +1,113 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and font styles */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Your Custom Font', Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #1b5e20;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+#hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 80px 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #ff7043;
+}
+
+/* Product section styles */
+#products {
+    padding: 80px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+/* About section styles */
+#about {
+    background-color: #795548;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* Contact section styles */
+#contact {
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
